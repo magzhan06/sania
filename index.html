@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вирусы и их влияние</title>
+    <link rel="stylesheet" href="/css/style.css"> <!-- Подключите файл стилей (style.css) -->
+</head>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $('a[href^="#"]').on('click', function (event) {
+      event.preventDefault();
+
+      var target = this.hash;
+      var $target = $(target);
+
+      $('html, body').animate({
+        'scrollTop': $target.offset().top
+      }, 1000, 'swing');
+    });
+  });
+</script>
+<body>
+    <div class="container">
+        <h2 class="headline1">How viruses work and how they are dangerous</h2>
+        <img class="img1" src="/image1.png" alt="">
+        <h3 class="text1">The virus is the smallest inanimate particle that for some reason makes us feel bad. And some of them even cause global outbreaks of diseases. We study the nature of the virus and understand what its insidiousness is</h3>
+        <div class="blockBorder1">
+            <div class="blockBorderTop"></div>
+            <div class="blockBackground">
+                <div class="block1">
+                    <h2 class="block-headline1">Content:</h2>
+                    <ul>
+                        <li><a href="#scrolltext1">What is it</a></li><br>
+                        <li><a href="#scrolltext2">By whom were they opened</a></li><br>
+                        <li><a href="#scrolltext3">How the virus works</a></li><br>
+                        <li><a href="#scrolltext4">How they work and why they are dangerous</a></li><br><br><br>
+                    </ul>
+                </div>
+            </div>
+            <div class="blockBorderBottom"></div>
+        </div>
+        <h2 class="headline2" id="scrolltext1">What is it</h2>
+        <h3 class="text2">A virus is a submicroscopic particle that spreads infection inside the cells 
+            of living organisms: animals, plants, humans, fungi and even bacteria.<br><br>
+            Viruses are often confused with bacteria. They are united by the fact that they are pathogens 
+            of various diseases. However, viruses, unlike bacteria, are a non—cellular form of life, and 
+            they are about a hundred times smaller in size (20-400 nm).<br><br>
+            Can a virus be considered a living organism? Rather no than yes. On the one hand, it does not 
+            show any signs of life outside the host and is not capable of self-reproduction. It does not accumulate 
+            or produce energy, and also does not support the internal environment, because it simply does not exist. 
+            On the other hand, the virus evolves, mutates and multiplies, transmits genetic information to the next 
+            generations, which is the properties of a living organism.<br><br>
+            Viruses are not similar to each other. They can have the shape of a sphere, a spiral, represent a complex 
+            asymmetric plexus, etc. For example, the shape of the rabies virus looks like a bullet, and Ebola has a threadlike shape.
+        </h3>
+        <div class="imgBorder">
+            <div class="imgBorderTop"></div>
+                <div class="imgBackground">
+                    <img class="img2" src="/image2.png" alt="">
+                </div>
+            <div class="imgBorderBottom"></div>
+        </div>
+        
+        <h2 class="headline3" id="scrolltext2">By whom were they opened</h2>
+        <h3 class="text3">Viruses were discovered by Russian biologist Dmitry Ivanovsky in 1892. This scientific breakthrough was 
+            preceded by several events.<br><br>
+            At the end of the XIX century, bacteria were already discovered, which explained the origin of many diseases, 
+            but not all. The nature of diseases such as smallpox, rabies, measles, yellow fever remained undisclosed. French 
+            microbiologist Louis Pasteur suggested that the causative agent of rabies is too small, so it cannot be detected through a 
+            microscope.<br><br>
+            In 1884, Charles Chamberlain, a pupil and associate of Louis Pater, invented a porcelain filter that freed liquids from 
+            bacteria. This allowed the Russian scientist Dmitry Ivanovsky to investigate mosaic tobacco disease, in which spots appear 
+            on the leaves instead of green, mosaic-colored in dark green and light green.<br><br>
+            Ivanovsky passed the juice of a sick plant through a porcelain filter. He applied the juice filtered from all bacteria to 
+            healthy tobacco leaves, after which the plant became ill. So the scientist realized that bacteria had nothing to do with 
+            it, and considered that "toxins" pass through the filter, which cause the disease. In the course of further experiments, 
+            he came to the conclusion that a form of biological microlife, which is still unknown to science, is to blame for tobacco 
+            disease, which is much smaller than a bacterium. He presented the results of his research in a scientific article "On two 
+            diseases of tobacco" in 1892. Virology as a science can be counted from it.
+        </h3>
+        <img class="img3" src="/image3.png" alt="">
+        <h3 class="text4">Seven years after Dmitry Ivanovsky's publication, an article by Dutch scientist Martin Beyerink was published, 
+            which largely repeated the results of the Russian scientist's research. It was Beyerink who suggested using the 
+            term "virus" to refer to an infectious particle (from the Latin "virus" — poison). However, he considered the 
+            pathogen as a liquid infectious origin, which turned out to be erroneous.<br><br>
+            In 1939, with the advent of the electron microscope, biologists were able to see the tobacco mosaic virus.
+        </h3>
+        <img class="img4" src="/image4.png" alt="">
+        <h2 class="headline4" id="scrolltext2">How the virus works</h2>
+        <h3 class="text4">At the center of the virus is the genetic material in the form of nucleic acid (DNA or RNA). 
+            There is a protein structure around it — a capsid. The capsid serves to protect the virus and helps with cell 
+            capture. Sometimes viruses are more complicated — they are additionally covered with a lipid shell — a supercapsid — a 
+            fatty structure that protects them from environmental changes. Bacteriophages, viruses that infect bacteria, have a 
+            slightly different structure. They have a polyhedron-shaped head and a rod-shaped process.
+        </h3>
+        <div class="imgBorder">
+            <div class="imgBorderTop"></div>
+                <div class="imgBackground">
+                    <img class="img5" src="/image5.png" alt="">
+                </div>
+            <div class="imgBorderBottom"></div>
+        </div>
+        <h2 class="headline5" id="scrolltext2">How viruses work and why they are dangerous</h2>
+        <h3 class="text5">The virus enters the human body through the blood, the mucous membrane of the mouth and nose, 
+            esophagus, microtrauma on the surface of the skin.<br><br>
+
+            How does infection occur? The genetic material of the virus is embedded inside the cell and affects its most 
+            important fragments. The natural processes in the cell are disrupted, and it turns into a "viral factory". 
+            Biologists call this process replication. During replication, the genetic material of the virus is mixed with 
+            the genes of the host cell. As a result, the virus mutates and increases its survival rate. When the replication 
+            process is established, that is, the infected cell produces the genome of the virus, the virus particle itself 
+            branches off and goes to infect new cells.<br><br><br><br>
+            Most viruses choose a specific target in a living organism. The hepatitis virus attaches to liver cells. 
+            The polio virus affects the motor neurons of the spinal cord. The human immunodeficiency virus (HIV) elects a 
+            number of cells of the immune system. Our immune system cannot withstand it in 100% of cases of infection. 
+            Instead of producing antibodies, the immune system begins to help the virus. So far, scientists do not have 
+            an exact answer why this is happening. There is a version that this phenomenon is due to the fact that there 
+            are endogenous retroviruses in our genome. These are DNA sequences obtained from viruses that infected our 
+            ancient ancestors. These genetic elements make up about 8% of our genome and are descended from the ancestors 
+            of modern retroviruses such as HIV. Retroviruses are a class of viruses that convert RNA into DNA in their 
+            genome, and ordinary cells, on the contrary, from DNA to RNA.<br><br>
+            Viruses change quickly. Any mutation of them is preserved in the genome, which helps them to evolve 
+            quickly. In addition, viruses have a short life cycle. These factors interfere with the analysis of 
+            the genome of viruses, and therefore make it difficult to fight them.
+        </h3>
+    </div>
+</body>
+</html>

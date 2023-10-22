@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'Super Squad_rus';
+    src: url(/Super_Squad_Rus.otf) format('woff2'),
+         url(/Super_Squad_Rus.otf) format('woff');
+}
+
+
+
+
+body{
+    margin: auto;
+    max-width: 900px;
+    background-color: white;
+}
+.container{
+    margin: 0 auto;
+    height: 8000px;
+    background-color: rgb(50, 50, 50);
+}
+header{
+    background-color: green;
+    height: 200%;
+}
+.headline1{
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    width: 600px;
+    margin-left: 100px;
+    color: white;
+    font-family: Super Squad_rus;
+    letter-spacing: 2px;
+}
+.img1{
+    margin-left: 100px;
+    border-radius: 100px;
+}
+.text1{
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    width: 600px;
+    margin-left: 100px;
+    color: white;
+    font-family:monospace;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.blockBorder1{
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.blockBorderTop{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(50, 50, 50);
+    border-bottom-left-radius: 100px;
+}
+.blockBorderBottom{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(50, 50, 50);
+    border-top-left-radius: 100px;
+}
+.blockBackground{
+    background-color: rgb(50, 50, 50);
+    width: 500px;
+    margin-left: 100px;
+    min-height: 100px;
+}
+.block1{
+    background-color: white;
+    min-height: 100px;
+    width: 500px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.block-headline1{
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 600px;
+    color: rgb(50, 50, 50);
+    font-family: Super Squad_rus;
+    letter-spacing: 2px;
+}
+ul{
+    margin: auto;
+}
+li{
+    margin: auto;
+    color: rgb(50, 50, 50);
+    font-family:monospace;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+a{
+    color: rgb(50, 50, 50);
+}
+.headline2{
+    margin: auto;
+    padding-bottom: 50px;
+    width: 600px;
+    margin-left: 100px;
+    color: white;
+    font-family: Super Squad_rus;
+    letter-spacing: 2px;
+}
+.text2, .text3 {
+    margin: auto;
+    padding-bottom: 50px;
+    width: 600px;
+    margin-left: 100px;
+    color: white;
+    font-family:monospace;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.text4{
+    padding-top: 50px;
+    margin: auto;
+    padding-bottom: 50px;
+    width: 600px;
+    margin-left: 100px;
+    color: white;
+    font-family:monospace;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.img2{
+    width: 500px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.headline3{
+    padding-top: 600px;
+    margin: auto;
+    padding-bottom: 50px;
+    width: 600px;
+    margin-left: 100px;
+    color: white;
+    font-family: Super Squad_rus;
+    letter-spacing: 2px;
+}
+
+.imgBorder{
+    float: right;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.imgBorderTop{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(50, 50, 50);
+    border-bottom-right-radius: 100px;
+}
+.imgBorderBottom{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(50, 50, 50);
+    border-top-right-radius: 100px;
+}
+.imgBackground{
+    width: 500px;
+    height: 333.125px;
+    background-color: rgb(50, 50, 50);
+}
+
+.img3{
+    padding-left: 100px;
+    width: 300px;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+.img4{
+    margin-left: 150px;
+    width: 500px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 20px;
+}
+.img5{
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.headline4{
+    padding-top: 100px;
+    margin: auto;
+    padding-bottom: 50px;
+    width: 600px;
+    margin-left: 100px;
+    color: white;
+    font-family: Super Squad_rus;
+    letter-spacing: 2px;
+}
+.headline5{
+    padding-top: 500px;
+    margin: auto;
+    padding-bottom: 50px;
+    width: 600px;
+    margin-left: 100px;
+    color: white;
+    font-family: Super Squad_rus;
+    letter-spacing: 2px;
+}
+.text5{
+    margin: auto;
+    padding-bottom: 50px;
+    width: 600px;
+    margin-left: 100px;
+    color: white;
+    font-family:monospace;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
